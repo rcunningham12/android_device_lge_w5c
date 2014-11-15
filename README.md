@@ -1,4 +1,6 @@
-android_device_lge_w5
+Cyanogenmod 11 for W5 MS323
 =====================
 
-Philz for the LG MS323 (L70)
+THANK YOU VM03 FOR THE BOOTING TREE	
+
+Edits for better support to the MS323 has been added, this is an on going development. 
