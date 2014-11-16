@@ -87,7 +87,8 @@ PRODUCT_COPY_FILES += \
     device/lge/w5/prebuilt/etc/sec_config:system/etc/sec_config \
     device/lge/w5/prebuilt/etc/izat.conf:system/etc/izat.conf \
     device/lge/w5/prebuilt/etc/boot_fixup:system/etc/boot_fixup \
-    device/lge/w5/prebuilt/etc/quipc.conf:system/etc/quipc.conf
+    device/lge/w5/prebuilt/etc/quipc.conf:system/etc/quipc.conf \
+    device/lge/w5/prebuilt/etc/vold.fstab:system/etc/vold.fstab 
 #    device/lge/w5/prebuilt/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
 #    device/lge/w5/prebuilt/etc/nfc-nci.conf:system/etc/nfc-nci.conf \
 #    device/lge/w5/prebuilt/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
