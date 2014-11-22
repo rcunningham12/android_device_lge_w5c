@@ -42,7 +42,7 @@ BOARD_FLASH_BLOCK_SIZE := 512
 
 
 # Kernel Info
-TARGET_KERNEL_CONFIG := w5ds_global_com_defconfig
+TARGET_KERNEL_CONFIG := w5_mpcs_us_defconfig
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/w5/mkbootimg.mk
 TARGET_PREBUILT_KERNEL := device/lge/w5/kernel
 BOARD_KERNEL_SEPARATED_DT := true
