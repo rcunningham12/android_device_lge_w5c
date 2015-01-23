@@ -50,9 +50,9 @@ BOARD_FLASH_BLOCK_SIZE := 512
 # Kernel Info
 TARGET_KERNEL_CONFIG := w5c_spr_us_defconfig
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/w5c/mkbootimg.mk
-TARGET_PREBUILT_KERNEL := device/lge/w5c/kernel
+# TARGET_PREBUILT_KERNEL := device/lge/w5c/kernel
 BOARD_KERNEL_SEPARATED_DT := true
-TARGET_KERNEL_SOURCE := kernel/lge/zv3
+TARGET_KERNEL_SOURCE := kernel/lge/msm8610
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 user_debug=31 msm_rtb.filter=0x37 androidboot.hardware=msm8610 androidboot.selinux=disabled
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 2048
@@ -79,7 +79,7 @@ TARGET_NO_RPC := true
 # Graphics
 BOARD_EGL_CFG := device/lge/w5c/prebuilt/egl.cfg
 TARGET_DISPLAY_USE_RETIRE_FENCE := true
-TARGET_QCOM_DISPLAY_VARIANT := caf-new
+# TARGET_QCOM_DISPLAY_VARIANT := caf-new
 USE_OPENGL_RENDERER := true
 TARGET_USES_ION := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
@@ -149,10 +149,12 @@ HAVE_SELINUX := true
 
 
 #Philz edits
-TARGET_SCREEN_HEIGHT := 800
-TARGET_SCREEN_WIDTH := 480
-BRIGHTNESS_SYS_FILE := "/sys/class/leds/lcd-backlight/brightness"
+#TARGET_SCREEN_HEIGHT := 800
+#TARGET_SCREEN_WIDTH := 480
+#BRIGHTNESS_SYS_FILE := "/sys/class/leds/lcd-backlight/brightness"
 
+#TWRP edits
+DEVICE_RESOLUTION := 480x800
 
 
 # SELinux
