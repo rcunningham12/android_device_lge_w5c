@@ -1,6 +1,6 @@
-Cyanogenmod 11 for W5 MS323
+Cyanogenmod 11 for w5c LG Realm (LS620)
 =====================
 
-THANK YOU VM03 FOR THE BOOTING TREE	
+Thank You VM03 and chevanlol360!
 
-Edits for better support to the MS323 has been added, this is an on going development. 
+Just getting started. Work in progress...
