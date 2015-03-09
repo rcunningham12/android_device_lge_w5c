@@ -52,7 +52,7 @@ TARGET_KERNEL_CONFIG := w5c_spr_us_defconfig
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/w5c/mkbootimg.mk
 # TARGET_PREBUILT_KERNEL := device/lge/w5c/kernel
 BOARD_KERNEL_SEPARATED_DT := true
-TARGET_KERNEL_SOURCE := kernel/lge/msm8610
+TARGET_KERNEL_SOURCE := kernel/lge/w5c
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 user_debug=31 msm_rtb.filter=0x37 androidboot.hardware=msm8610 androidboot.selinux=disabled
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 2048
