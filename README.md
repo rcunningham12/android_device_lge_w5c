@@ -1,4 +1,4 @@
-android_device_lge_w5
+android_device_lge_w5c
 =====================
 
-Philz for the LG MS323 (L70)
+Philz for the LG w5c (Realm)
